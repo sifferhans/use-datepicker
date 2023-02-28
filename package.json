@@ -1,0 +1,28 @@
+{
+  "name": "@sigveh/use-datepicker",
+  "version": "0.0.1",
+  "description": "Headless datepicker component for Vue 3.",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "build": "tsup ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sifferhans/use-datepicker.git"
+  },
+  "keywords": [
+    "vue",
+    "headless",
+    "datepicker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sifferhans/use-datepicker/issues"
+  },
+  "homepage": "https://github.com/sifferhans/use-datepicker#readme",
+  "devDependencies": {
+    "tsup": "^6.6.3"
+  }
+}
