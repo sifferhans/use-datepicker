@@ -27,7 +27,7 @@
   "scripts": {
     "build": "unbuild",
     "lint": "eslint",
-    "release": "pnpm run build && pnpm run changesets publish"
+    "publish": "pnpm run build && pnpm run changesets publish"
   },
   "exports": {
     ".": {
