@@ -26,9 +26,8 @@
   },
   "scripts": {
     "build": "unbuild",
-    "ci:version": "changeset version && npm install --no-frozen-lockfile",
-    "ci:publish": "changeset publish",
-    "lint": "eslint"
+    "lint": "eslint",
+    "release": "pnpm run build && pnpm run changesets publish"
   },
   "exports": {
     ".": {
